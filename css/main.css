@@ -1,0 +1,283 @@
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    color: #fff;
+}
+
+.mainNav {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    padding: 1.1em 1em!important;
+    letter-spacing: 1px;
+}
+
+.mainNav:hover li a {
+    color: #fed136;
+}
+
+.navBrand {
+    color: #fed136 !important;
+    font-size: 28px;
+}
+
+
+/* header*/
+
+.mainHeader {
+    height: 700px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.welcome {
+    font-size: 40px;
+}
+
+.intro h1 {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.advisor {
+    color: black;
+}
+
+.advisor1 {
+    font-family: "segoe ui light";
+    position: relative;
+    overflow: hidden;
+}
+
+.caption {
+    color: #fff;
+    top: -100%;
+    bottom: 90%;
+    left: 15px;
+    right: 15px;
+    position: absolute;
+    transition: all 1s;
+}
+
+.caption a {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffb606;
+}
+
+.overlay {
+    margin-top: 20px;
+    background-color: rgba(17, 3, 100, 0.7);
+    height: 300px;
+}
+
+.advisor1:hover .caption {
+    top: 0;
+}
+
+.child {
+    background-color: #fff;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    position: absolute;
+    transition: all 1s;
+}
+
+.advisor1:hover .child {
+    bottom: -100px;
+}
+
+.Categories {
+    background-color: #f9f9f9;
+}
+
+.CategoriesItem {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.CategoriesText {
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+    height: 178px;
+    background-size: cover;
+    border: none;
+    transition: all 1s;
+    background-size: 100% 100%;
+}
+
+.card1 .car-overlay:hover {
+    background-color: rgba(51, 122, 183, 0.5);
+}
+
+.card2 .car-overlay:hover {
+    background-color: rgba(30, 193, 217, 0.5);
+}
+
+.card3 .car-overlay:hover {
+    background-color: rgba(16, 196, 92, 0.5);
+}
+
+.card4 .car-overlay:hover {
+    background-color: rgba(71, 197, 142, 0.5);
+}
+
+.card5 .car-overlay:hover {
+    background-color: rgba(249, 189, 68, 0.5);
+}
+
+.card6 .car-overlay:hover {
+    background-color: rgba(233, 72, 174, 0.5);
+}
+
+.card7 .car-overlay:hover {
+    background-color: rgba(232, 75, 58, 0.5);
+}
+
+.card8 .car-overlay:hover {
+    background-color: rgba(146, 39, 143, 0.5);
+}
+
+.card1 {
+    background-image: url(../img/category/1.jpg);
+}
+
+.card2 {
+    background-image: url(../img/category/2.jpg);
+}
+
+.card3 {
+    background-image: url(../img/category/3.jpg);
+}
+
+.card4 {
+    background-image: url(../img/category/4.jpg);
+}
+
+.card5 {
+    background-image: url(../img/category/5.jpg);
+}
+
+.card6 {
+    background-image: url(../img/category/6.jpg);
+}
+
+.card7 {
+    background-image: url(../img/category/7.jpg);
+}
+
+.card8 {
+    background-image: url(../img/category/8.jpg);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.card1 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #337ab7;
+    transition: all 2s;
+}
+
+.card2 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #1ec1d9;
+    transition: all 2s;
+}
+
+.card3 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #10c45c;
+    transition: all 2s;
+}
+
+.card4 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #47c58e;
+    transition: all 2s;
+}
+
+.card5 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #f9bd44;
+    ;
+    transition: all 2s;
+}
+
+.card6 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #e948ae;
+    transition: all 2s;
+}
+
+.card7 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #e84b3a;
+    transition: all 2s;
+}
+
+.card8 .car-overlay {
+    widows: 100%;
+    height: 100%;
+    background-color: #92278f;
+    transition: all 2s;
+}
+
+.info {
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.contact {
+    background-image: url(../img/map-image.png);
+    background-size: cover;
+    background-color: #212529;
+}
+
+.form-group>input {
+    padding: 35px;
+}
+
+textarea.form-control {
+    height: 248px;
+}
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+    color: black;
+}
